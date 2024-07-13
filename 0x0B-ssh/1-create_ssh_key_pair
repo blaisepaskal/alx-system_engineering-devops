@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#creates a shh key pair in file "school" and passphrase "betty"
+ssh-keygen -b 4096 -f school -N betty
